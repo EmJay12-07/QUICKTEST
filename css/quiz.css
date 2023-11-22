@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10vh;
+    margin: 20px;
+    background-color: hsl(271, 76%, 53%, 0.2);
+    background-image: url(../images/pexels-jess-bailey-designs-1097930.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+
+.testing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 45vw;
+    background-color: rgb(187, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    
+    
+}
+.test1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+.test1 p {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Montserrat';
+}
+#btn input {
+    border: none;
+    background-color: blueviolet;
+    color: antiquewhite;
+    width: 45vw;
+    height: 7vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    font-size: medium;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn input:hover {
+    background-color: rgba(17, 0, 255, 0.97);
+}
+.backbtn {
+    background-color: azure;
+    width: 12vw;
+    height: 7vh;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(14, 10, 250);
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
+}
+.backbtn a:hover {
+    background-color: rgba(95, 253, 4, 0.97);
+    color: black;
+}
+.backbtn:hover {
+    background-color: rgba(95, 253, 4, 0.97);
+    color: black;
+}
+.backbtn a {
+    text-decoration: none;
+    color: rgb(14, 18, 236);
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    text-align: center;
+    
+}
+.footer p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+
+}
